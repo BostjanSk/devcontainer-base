@@ -1,0 +1,7 @@
+{
+  "name": "ChangeProject",
+
+  "dockerComposeFile": "compose.yml",
+  "service": "app",                           // ← important: which service is your dev workspace
+  "workspaceFolder": "/workspace",
+}
